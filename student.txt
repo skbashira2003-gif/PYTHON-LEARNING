@@ -1,5 +1,0 @@
-Name: Bashira
-Age: 23
-Course: Python
-City: Guntur
-Skill: Python
