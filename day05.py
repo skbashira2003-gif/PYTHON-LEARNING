@@ -2,7 +2,6 @@
 # DAY 05 - LIST AND TUPLE OPERATIONS
 # ============================================================
 
-
 # ==================
 # INSERT OPERATIONS
 # ==================
@@ -11,7 +10,6 @@
 a = [10, 20, 30]
 print(a)
 # Output: [10, 20, 30]
-
 
 # -----------
 # APPENDING
@@ -30,7 +28,6 @@ a.append(None)            # None
 print(a)
 # Output: [10, 20, 30, 40, 10.5, (2+3j), True, None]
 
-
 # Add 5 types of SEQUENCE elements using append()
 
 a = [10, 20, 30]
@@ -47,7 +44,6 @@ print(a)
 
 # IMPORTANT:
 # append() adds the complete element as ONE element.
-
 
 # -----------
 # EXTENDING
@@ -89,7 +85,6 @@ print(a)
 # IMPORTANT:
 # extend() adds elements individually.
 
-
 # ---------------\
 # INSERTING
 # ----------------
@@ -100,13 +95,11 @@ a.insert(1, 100)
 print(a)
 # Output: [10, 100, 20, 30]
 
-
 a = [10, 20, 30]
 
 a.insert(-1, 200)
 print(a)
 # Output: [10, 20, 200, 30]
-
 
 a = [10, 20, 30]
 
@@ -114,13 +107,11 @@ a.insert(10000, 300)
 print(a)
 # Output: [10, 20, 30, 300]
 
-
 a = [10, 20, 30]
 
 a.insert(-10000, 400)
 print(a)
 # Output: [400, 10, 20, 30]
-
 
 # ===================
 # DELETE OPERATIONS
@@ -128,11 +119,9 @@ print(a)
 
 a = [1, 2, 1, 3, 4, 1]
 
-
 # pop element at index 3
 
 element = a.pop(3)
-
 print("Popped element:", element)
 print("List:", a)
 
@@ -152,7 +141,6 @@ print("List:", a)
 # Popped element: 1
 # List: [1, 2, 1, 4]
 
-
 # remove first 1
 
 a.remove(1)
@@ -162,7 +150,6 @@ print("List:", a)
 # Output:
 # List: [2, 1, 4]
 
-
 # clear all elements
 
 a.clear()
@@ -171,7 +158,6 @@ print("List:", a)
 
 # Output:
 # List: []
-
 
 # ==================
 # UPDATE OPERATIONS
@@ -186,7 +172,6 @@ a.sort()
 print(a)
 # Output: [1, 2, 3, 4, 5]
 
-
 # Sort descending
 
 a = [3, 2, 1, 5, 4]
@@ -196,7 +181,6 @@ a.sort(reverse=True)
 print(a)
 # Output: [5, 4, 3, 2, 1]
 
-
 # Reverse the list
 
 a = [3, 2, 1, 5, 4]
@@ -205,7 +189,6 @@ a.reverse()
 
 print(a)
 # Output: [4, 5, 1, 2, 3]
-
 
 # =================
 # READ OPERATIONS
@@ -218,7 +201,6 @@ a = [1, 2, 1, 3, 1, 2]
 print(a.count(1))
 # Output: 3
 
-
 # Find count of 2
 
 print(a.count(2))
@@ -230,12 +212,10 @@ print(a.count(2))
 print(a.index(1))
 # Output: 0
 
-
 # Find index of 1 from 2nd index
 
 print(a.index(1, 2))
 # Output: 2
-
 
 # Find index of 1 from 5th index
 
@@ -244,7 +224,6 @@ print(a.index(1, 2))
 
 # print(a.index(1, 5))
 # Output: ValueError
-
 
 # ==================
 # TUPLE OPERATIONS
