@@ -1,0 +1,6 @@
+Student_ID,Name,Python,SQL,DSA,Attendance,Total,Average,Grade,Result,Attendance_Status
+101,Bashira,85,80,78,92,243,81.0,A,Pass,Eligible
+102,Rahul,72,75,70,85,217,72.33,B,Pass,Eligible
+103,Priya,90,88,92,96,270,90.0,A+,Pass,Eligible
+104,Arjun,65,60,55,72,180,60.0,C,Pass,Shortage
+105,Sneha,78,82,80,88,240,80.0,A,Pass,Eligible
